@@ -95,7 +95,7 @@ h1.maintitle {
 	font-size: 1em;
 	color: #000;
 	height: 100%;
-	padding: 3% 2% 8% 2%;
+	padding: 3% 2% 9% 2%;
 }
 
 .red {
@@ -144,4 +144,12 @@ h1.maintitle {
 	font-size: 0.9em;
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+	.post {
+		margin-bottom: 10%;
+	}
+}
+
+
 
