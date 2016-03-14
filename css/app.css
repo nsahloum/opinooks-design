@@ -82,6 +82,10 @@ h1.maintitle {
 	font-size: 1.5em;
 }
 
+.menu li {
+	padding-left: 2em;
+}
+
 .menu a {
 	color: #80A2BD;
 }
@@ -90,16 +94,12 @@ h1.maintitle {
 	background-color: #DBDBDB;
 }
 
+.bold {
+	font-weight: bold;
+}
 
 
-@font-face{font-family:'Calluna';
- src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
-}
-body {
-	background: url(//subtlepatterns.com/patterns/scribble_light.png);
-  font-family: Calluna, Arial, sans-serif;
-  min-height: 1000px;
-}
+
 #colonnes {
 	-webkit-column-width: 320px; /* Chrome, Safari, Opera */
     -moz-column-width: 320px; /* Firefox */
@@ -112,13 +112,10 @@ body {
 	margin: 50px auto;
 }
 
+
 div#colonnes figure {
 	background: #fefefe;
-	border: 2px solid #fcfcfc;
-	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 	margin: 0 2px 15px;
-	padding: 15px;
-	padding-bottom: 10px;
 	transition: opacity .4s ease-in-out;
   display: inline-block;
   column-break-inside: avoid;
@@ -132,9 +129,83 @@ div#colonnes figure img {
 }
 
 div#colonnes figure figcaption {
+	text-align: center;
+  font-size: 1.5rem;
+	color: #444;
+  font-family: "Raleway", Helvetica, sans-serif;
+  padding-top: 0.5em;
+  background-color: rgba(153,151,151, 0.7); 
+  
+}
+
+
+
+div#colonnes figure .debat {
+	opacity: 0.95;
+	text-align: center;
+  font-size: 1.5rem;
+	color: #fff;
+  line-height: 1.5;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 0.5em 0.5em 0 0.5em;
+
+}
+
+div#colonnes figure .debat:hover {
+	opacity: 0.7;
+}
+
+.titre-button {
+	border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+div#colonnes figure .debat .small {
+	font-size: 0.7rem;
+}
+
+.one {
+	background-color: #16283A;
+}
+
+.two {
+	background-color: #2E0E02;
+}
+
+.three {
+	background-color: #1E2F23;
+}
+
+.four {
+	background-color: #768948;
+}
+
+.five {
+	background-color: #4C191B;
+}
+
+.six {
+	background-color: #291528;
+}
+
+.seven {
+	background-color: #243119;
+}
+
+.eight {
+	background-color: #3E78B2;
+}
+
+div#colonnes figure .react {
   font-size: .9rem;
 	color: #444;
   line-height: 1.5;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 1em 1em 1em 1em;
+  background-color: #E9E9E9;
+  border-bottom: 1px solid #B0B0B0;
+  border-left: 1px solid #B0B0B0;
+  border-right: 1px solid #B0B0B0;
 }
 
 div#colonnes small { 
@@ -150,12 +221,51 @@ div#colonnes small a {
   transition: .4s color;
 }
 
-div#colonnes:hover figure:not(:hover) {
-	opacity: 0.4;
-}
+
 
 @media screen and (max-width: 750px) { 
   #colonnes { column-gap: 0px; }
   #colonnes figure { width: 100%; }
+}
+
+
+.button.success {
+	border-radius: 0.5em;
+	background-color: rgba(255, 255, 255, 0.3);
+	
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-weight: bold;
+	color: #484848;
+
+}
+
+.button.success:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #484848;
+}
+
+
+
+.button.alert {
+	border-radius: 0.5em;
+	background-color: rgba(201, 45, 45, 0.9);
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-weight: bold;
+	
+}
+
+.button.alert:hover {
+	background-color: rgba(201, 45, 45, 0.7);
+}
+
+.quest {
+	padding-bottom: 0.5em;
+}
+
+
+.reagir {
+	border-radius: 0.5em;
+	font-weight: bold;
+	font-family: "Raleway", Helvetica, sans-serif;
 }
 
