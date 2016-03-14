@@ -140,7 +140,7 @@ div#colonnes figure figcaption {
 
 
 
-div#colonnes figure .debat {
+div#colonnes figure .debat  {
 	opacity: 0.95;
 	text-align: center;
   font-size: 1.5rem;
@@ -148,6 +148,12 @@ div#colonnes figure .debat {
   line-height: 1.5;
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   padding: 0.5em 0.5em 0 0.5em;
+
+}
+
+div#colonnes figure .debat a {
+	opacity: 0.95;
+	color: #fff;
 
 }
 
