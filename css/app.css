@@ -309,6 +309,7 @@ div#colonnes small a {
 	font-size: 1.2em;
 	border-radius: 0.5em;
 	background-color: #D56D6D;
+	margin: 0;
 }
 
 .inscripbutton .button:hover {
