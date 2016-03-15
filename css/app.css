@@ -240,7 +240,7 @@ div#colonnes small a {
 
 
 .button.success {
-	border-radius: 0.5em;
+	border-radius: 0.3em;
 	background-color: rgba(255, 255, 255, 0.3);
 	
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -257,7 +257,7 @@ div#colonnes small a {
 
 
 .button.alert {
-	border-radius: 0.5em;
+	border-radius: 0.3em;
 	background-color: rgba(201, 45, 45, 0.7);
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: bold;
@@ -335,4 +335,9 @@ div#colonnes small a {
 
 label {
 	color: #8A8A8A ;
+}
+
+#colonnes .button {
+	padding: 0.6em;
+	margin-right: 0.4em;
 }
