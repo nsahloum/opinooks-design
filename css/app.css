@@ -92,11 +92,11 @@ h1.maintitle {
 }
 
 .menu a {
-	color: #407899;
+	color: #C72028;
 }
 
 .top-bar, .top-bar ul {
-	background-color: #DBDBDB;
+	background-color: #fff;
 }
 
 .bold {
@@ -106,24 +106,24 @@ h1.maintitle {
 
 
 #colonnes {
-	-webkit-column-width: 320px; /* Chrome, Safari, Opera */
-    -moz-column-width: 320px; /* Firefox */
-	column-width: 320px;
-	-webkit-column-gap: 15px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 15px; /* Firefox */
-	column-gap: 15px;
-  width: 90%;
-	max-width: 1100px;
+	-webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+	column-width: 250px;
+	-webkit-column-gap: 75px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 75px; /* Firefox */
+	column-gap: 75px;
 	margin: 50px auto;
+
 }
 
 
 div#colonnes figure {
 	background: #fefefe;
-	margin: 0 2px 15px;
+	margin: 0 2px 30px;
 	transition: opacity .4s ease-in-out;
   display: inline-block;
   column-break-inside: avoid;
+  	box-shadow: 1px 1px 5px #888888;
 }
 
 div#colonnes figure img {
@@ -134,22 +134,23 @@ div#colonnes figure img {
 }
 
 div#colonnes figure figcaption {
-	text-align: center;
-  font-size: 1.5rem;
+  
 	color: #444;
   font-family: "Raleway", Helvetica, sans-serif;
-  padding-top: 0.5em;
-  background-color: rgba(153,151,151, 0.7); 
+  padding: 0;
+  background-color: rgb(255, 255, 255); 
   
 }
 
+div#colonnes figure figcaption button {
+	font-size: 0.8em;
+}
 
 
 div#colonnes figure .debat  {
-	opacity: 0.95;
 	text-align: center;
   font-size: 1.5rem;
-	color: #fff;
+	color: #EED8D8;
   line-height: 1.5;
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   padding: 0.5em 0.5em 0 0.5em;
@@ -157,8 +158,7 @@ div#colonnes figure .debat  {
 }
 
 div#colonnes figure .debat a {
-	opacity: 0.95;
-	color: #fff;
+	color: #EED8D8;
 
 }
 
@@ -166,57 +166,51 @@ div#colonnes figure .debat:hover {
 	opacity: 0.7;
 }
 
-.titre-button {
-	border-top-left-radius: 0.5em;
-  border-top-right-radius: 0.5em;
-}
+
 
 div#colonnes figure .debat .small {
 	font-size: 0.7rem;
 }
 
 .one {
-	background-color: #16283A;
+	background-color: #424242;
 }
 
 .two {
-	background-color: #2E0E02;
+	background-color: #3C4C8B;
 }
 
 .three {
-	background-color: #1E2F23;
+	background-color: #C20000;
 }
 
 .four {
-	background-color: #768948;
+	background-color: #002DB3;
 }
 
 .five {
-	background-color: #4C191B;
+	background-color: #A11B9F;
 }
 
 .six {
-	background-color: #291528;
+	background-color: #8C15D1;
 }
 
 .seven {
-	background-color: #243119;
+	background-color: #3D3D3D;
 }
 
 .eight {
-	background-color: #3E78B2;
+	background-color: #286276;
 }
 
 div#colonnes figure .react {
-  font-size: .9rem;
+  font-size: .7em;
 	color: #444;
   line-height: 1.5;
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-  padding: 1em 1em 1em 1em;
-  background-color: #E9E9E9;
-  border-bottom: 1px solid #B0B0B0;
-  border-left: 1px solid #B0B0B0;
-  border-right: 1px solid #B0B0B0;
+  font-family: Verdana,Geneva,sans-serif;
+  background-color: #fff;
+  padding: 0 0.5em 0.5em 0.5em;
 }
 
 div#colonnes small { 
@@ -241,32 +235,32 @@ div#colonnes small a {
 
 
 .button.success {
-	border-radius: 0.3em;
-	background-color: rgba(255, 255, 255, 0.3);
-	
+	background: none;
+	color : #bababa;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-	font-weight: bold;
-	color: #484848;
-
+	padding: 0;
+	margin: 0;
 }
 
 .button.success:hover{
-	background-color: rgba(255, 255, 255, 0.8);
-	color: #484848;
+	background: none;
+	color: #bababa;
 }
 
 
 
 .button.alert {
-	border-radius: 0.3em;
-	background-color: rgba(201, 45, 45, 0.7);
+	background: none;
+	color : #bababa;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-	font-weight: bold;
+	padding: 0;
+	margin: 0;
 	
 }
 
 .button.alert:hover {
-	background-color: rgba(201, 45, 45, 1.0);
+	background: none;
+	color: #bababa;
 }
 
 .quest {
@@ -275,10 +269,13 @@ div#colonnes small a {
 
 
 .reagir {
-	border-radius: 0.5em;
-	font-weight: bold;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.64em;
+	display: none;
+	background: none;
+	color : #bababa;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	text-decoration: underline;
+	padding: 0;
+	margin: 0;
 }
 
 .apcon {
@@ -385,10 +382,15 @@ label {
 }
 
 .oui-non {
-	margin-top: 1em;
+	padding: 0;
 	font-family: "Raleway", Helvetica, sans-serif;
 }
 
 .react {
 	text-align: justify;
+}
+
+.flux {
+	background-color: #E9E9E9;
+	padding: 0 3em;
 }
