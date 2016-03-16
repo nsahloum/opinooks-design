@@ -7,9 +7,7 @@
 }
 
 .header {
-	background-attachment: fixed;
-	background-image: url("../img/banner.jpg");
-	background-size: cover;
+	background-color: #B30000;
 }
 
 h1.maintitle {
@@ -65,8 +63,8 @@ h1.maintitle {
 
 .inscrip {
 	background-color: rgba(255, 255, 255, 0.0);
-	border: 1px solid #FFF;
-	border-radius: 2.5em;
+	border: 2px solid #fff;
+	border-radius: 0em;
 	color: #fff;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 1.2em;
@@ -109,9 +107,9 @@ h1.maintitle {
 	-webkit-column-width: 250px; /* Chrome, Safari, Opera */
     -moz-column-width: 250px; /* Firefox */
 	column-width: 250px;
-	-webkit-column-gap: 75px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 75px; /* Firefox */
-	column-gap: 75px;
+	-webkit-column-gap: 55px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 55px; /* Firefox */
+	column-gap: 55px;
 	margin: 50px auto;
 
 }
@@ -124,6 +122,7 @@ div#colonnes figure {
   display: inline-block;
   column-break-inside: avoid;
   	box-shadow: 1px 1px 5px #888888;
+  	border: 3px solid #fff;
 }
 
 div#colonnes figure img {
@@ -137,7 +136,7 @@ div#colonnes figure figcaption {
   
 	color: #444;
   font-family: "Raleway", Helvetica, sans-serif;
-  padding: 0;
+  padding: 0 .5em;
   background-color: rgb(255, 255, 255); 
   
 }
@@ -150,15 +149,14 @@ div#colonnes figure figcaption button {
 div#colonnes figure .debat  {
 	text-align: center;
   font-size: 1.5rem;
-	color: #EED8D8;
   line-height: 1.5;
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-  padding: 0.5em 0.5em 0 0.5em;
+  padding: 0em;
 
 }
 
 div#colonnes figure .debat a {
-	color: #EED8D8;
+
 
 }
 
@@ -173,35 +171,43 @@ div#colonnes figure .debat .small {
 }
 
 .one {
-	background-color: #424242;
+	background-color: #511010;
+	color: #B7CCE6 !important;
 }
 
 .two {
-	background-color: #3C4C8B;
+	background-color: #10514E;
+	color: #C1F0E5;
 }
 
 .three {
-	background-color: #C20000;
+	background-color: #E9A0A0;
+	color: #470C00;
 }
 
 .four {
-	background-color: #002DB3;
+	background-color: #5F0707;
+	color: #FFE89E;
 }
 
 .five {
-	background-color: #A11B9F;
+	background-color: #530E0E;
+	color: #FFAE9E;
 }
 
 .six {
-	background-color: #8C15D1;
+	background-color: #C18A8A;
+	color: #000000;
 }
 
 .seven {
-	background-color: #3D3D3D;
+	background-color: #362121;
+	color: #A7F1D7;
 }
 
 .eight {
-	background-color: #286276;
+	background-color: #E88282;
+	color: #000000;
 }
 
 div#colonnes figure .react {
@@ -210,7 +216,7 @@ div#colonnes figure .react {
   line-height: 1.5;
   font-family: Verdana,Geneva,sans-serif;
   background-color: #fff;
-  padding: 0 0.5em 0.5em 0.5em;
+  padding: 0 1.2em 0.5em 1.2em;
 }
 
 div#colonnes small { 
@@ -346,9 +352,7 @@ label {
 	font-family: "Raleway", Helvetica, sans-serif;
 }
 
-.auteur {
-	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-}
+
 
 .debatinfo {
 	
@@ -393,4 +397,32 @@ label {
 .flux {
 	background-color: #E9E9E9;
 	padding: 0 3em;
+	height: 100%;
+}
+
+.opins { 
+	margin-top: 26px;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	box-shadow: 1px 1px 5px #888888;
+  	border: 2px solid #E9E9E9;
+}
+
+.contenaire {
+	width: 100%;
+	background-color: #E9E9E9;
+	height: 100%;
+
+}
+
+.titredebat {
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+.auteur {
+	text-align: right;
+	border-bottom: 1px solid #000;
 }
