@@ -208,6 +208,48 @@ h1.titlelogo a .titleor {
 
 }
 
+.sign {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	margin: 1em 0;
+}
+
+.form {
+	font-family: 'Ubuntu', sans-serif;
+	color: #32323C;
+}
+
+input {
+	margin-top: 1em;
+}
+
+.labelo {
+	margin-bottom: 0.5em;
+}
+
+[type='text']:focus {
+	border-color: #FF7743;
+}
+
+[type='text'] {
+	border-radius: .3em;
+}
+
+
+.signbutton .button {
+	border: 1px solid #FF7743;
+	background-color: rgba(255, 119, 67, 0.0);
+	color: #000;
+	border-radius: .3em;
+	width: 80%;
+	font-size: 1.1em;
+}
+
+.signbutton .button:hover {
+	background-color: rgba(255, 119, 67, 1);
+	color: #fff;
+}
+
 @media only screen and (max-width: 320px) {
 	.opincount {
 		padding-right: 0.3em;
